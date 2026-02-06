@@ -1,0 +1,29 @@
+.container{
+    width: 40%;
+    border: 3px solid;
+    text-align: center;
+    margin: auto;   
+    padding: 10px;
+    background-color: whitesmoke;
+    border-radius: 15px;
+    
+}
+
+body{
+    background-image: url(PAFF_082917_mathequations-1024x585.jpg);
+    background-position: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+input{
+    width: 95%;
+    height: 25px;
+}
+
+button{
+    border: 2px solid;
+    background-color:  rgb(27, 168, 34);
+    border-radius: 5px;
+}
+

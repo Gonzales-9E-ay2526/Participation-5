@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modified Calculator</title>
+
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+    
+
+    <br><br>
+    <div class="container">
+        <h1>Sum of Two Variables</h1>
+            <form>
+                <label>First Number:</label><br>
+                <input type="number" id="Num1" class="form-control mb-2"><br><br>
+
+                <label>Second Number:</label><br>
+                <input type="number" id="Num2" class="form-control mb2">
+                
+                <p id="calculate">The sum of two variables is</p>
+
+                <button type="button" class="btn btn-success" onclick="sum()">Calculate</button>
+                <button type="button" class="btn btn-success" onclick="window.location.reload()">Reload</button>
+                <br><br>
+            </form>
+    </div>
+
+    <script>
+        function sum() {
+            var Value1 = document.getElementById("Num1").value;
+            var Value2 = document.getElementById("Num2").value;
+           
+            var sum = Number(Value1) + Number(Value2);
+           
+            document.getElementById("calculate").innerHTML = "The sum of " + sum;
+
+        }
+    </script>
+
+
+
+</body>
+</html>
